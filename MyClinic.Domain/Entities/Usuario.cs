@@ -16,7 +16,7 @@ namespace MyClinic.Domain.Entities
         public string CRM { get; set; }
         public string Sexo { get; set; }
         public string Permissoes { get; private set; }
-        public double PercentualRepasseClinica { get; set; }
+        public double? PercentualRepasseClinica { get; private set; }
         public DateTime? dataLimiteSolicitacaoSenha { get; set; }
         public string ChaveSolicitacaoSenha { get; set; }
 
@@ -27,6 +27,12 @@ namespace MyClinic.Domain.Entities
                 this.Permissoes = "#ADM#";
 
             this.Permissoes = permissao;
+        }
+
+        public void ConfigurarPercentualRepasseClinica(double? percentual)
+        {
+            if (percentual.HasValue && percentual.Value >= 0)
+                this.PercentualRepasseClinica = percentual;
         }
     }
 }
