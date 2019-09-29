@@ -2,7 +2,7 @@
 
 Projeto BackEnd para o MyClinic (Sistema para Clínicas Odontológicas)
 
-O sistema é baseado na abordagem DDD (Domain Drive Design) que refere-se a uma metodologia de Design orientada pelo Dominio da Aplicação.  
+O sistema é baseado na abordagem DDD (Domain Drive Design) que refere-se a uma metodologia de Design Orientada ao Domínio.  
 Os projetos criados no Visual Studio podem ser visualizados na imagem abaixo.  
 Alguns outros conceitos e Padrões foram utilizados para garantir um código que utiliza os princípios do SOLID e Clean Code.
 
