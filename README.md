@@ -9,4 +9,9 @@ Alguns outros conceitos e padrões foram utilizados para garantir um código que
   
 Os projetos criados no Visual Studio podem ser visualizados na imagem abaixo.  
 
-![image](https://user-images.githubusercontent.com/30643035/65826514-79329880-e254-11e9-9aca-0830aaee883e.png)
+![image](https://user-images.githubusercontent.com/30643035/65826514-79329880-e254-11e9-9aca-0830aaee883e.png)  
+  
+  
+O Fluxo de Comunicação entre as camadas devera seguir conforme imagem abaixo
+
+![image](https://user-images.githubusercontent.com/30643035/65826706-b77d8700-e257-11e9-9c3c-d40737e08c6f.png)
