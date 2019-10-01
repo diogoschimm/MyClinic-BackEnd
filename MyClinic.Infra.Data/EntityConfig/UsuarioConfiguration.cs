@@ -11,7 +11,7 @@ namespace MyClinic.Infra.Data.EntityConfig
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
-            builder.HasKey(u => u.IdUsuario);
+            builder.HasKey(u => u.UsuarioId);
             builder.Property(u => u.Papel).HasField("idFuncao");
         }
     }

@@ -29,7 +29,8 @@ namespace MyClinic.Infra.Data.Repositories
         public virtual TEntity GetByKey(params int[] keys)
         {
             return this._myClinicContext.Set<TEntity>().Find(keys);
-        }
+        } 
+
         public virtual void Update(TEntity entity)
         {
             this._myClinicContext.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;

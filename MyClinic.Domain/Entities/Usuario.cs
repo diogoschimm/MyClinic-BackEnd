@@ -7,7 +7,7 @@ namespace MyClinic.Domain.Entities
 {
     public class Usuario
     {
-        public int IdUsuario { get; set; }
+        public int UsuarioId { get; set; }
         public string NomeUsuario { get; set; }
         public string EmailUsuario { get; set; }
         public string SenhaUsuario { get; set; }
@@ -17,7 +17,7 @@ namespace MyClinic.Domain.Entities
         public string Sexo { get; set; }
         public string Permissoes { get; private set; }
         public double? PercentualRepasseClinica { get; private set; }
-        public DateTime? dataLimiteSolicitacaoSenha { get; set; }
+        public DateTime? DataLimiteSolicitacaoSenha { get; set; }
         public string ChaveSolicitacaoSenha { get; set; }
 
         public void ConfigurarPermissao(EPapel papel, string permissao)
@@ -32,7 +32,7 @@ namespace MyClinic.Domain.Entities
         public void ConfigurarPercentualRepasseClinica(double? percentual)
         {
             if (percentual.HasValue && percentual.Value >= 0)
-                this.PercentualRepasseClinica = percentual;
+                this.PercentualRepasseClinica = percentual; 
         }
     }
 }
