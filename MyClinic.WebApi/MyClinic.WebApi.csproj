@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyClinic.Application\MyClinic.Application.csproj" />
+    <ProjectReference Include="..\MyClinic.Infra.Data\MyClinic.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
