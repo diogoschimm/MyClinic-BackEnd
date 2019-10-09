@@ -2,7 +2,17 @@
 
 Projeto BackEnd para o MyClinic (Sistema para Clínicas Odontológicas)
 
-O sistema é baseado no DDD (Domain Drive Design) que refere-se a uma metodologia de Design Orientada ao Domínio.  
-Alguns outros conceitos e padrões foram utilizados para garantir um código que utiliza os princípios do SOLID e Clean Code.
+O sistema deverá conter as seguintes regras de negocio:
+- Gerenciar clinicas odontologicas;
+- Gerenciar dentistas, atendentes e administradores;
+- Gerenciar procedimentos da clínica;
+- Gerenciar fornecedores da clínica para lançamento de contas a pagar;
+- Realizar Consultas e Tratamentos dentários;
+- Realizar o Controle da Ortodontia;
+- Gerenciar a Agenda de Atendimentos;
+- Controlar lançamentos do Contas a Pagar, Pagamentos e Notificações;
+- Controlar lançamentos para dentistas, como adiantamentos;
+- Controlar os percentuais de repasses dos dentistas para a clínica.
+
    
  
