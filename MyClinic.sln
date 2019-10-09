@@ -27,11 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClinic.WebSystem", "MyCli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClinic.Application", "MyClinic.Application\MyClinic.Application.csproj", "{71ABA84F-EC63-4786-82E0-E3D95BEE8284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClinic.Infra.CrossCutting.Bus", "MyClinic.Infra.CrossCutting.Bus\MyClinic.Infra.CrossCutting.Bus.csproj", "{1BA74D67-985B-48C2-8748-415AD2949F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClinic.Infra.CrossCutting.Bus", "MyClinic.Infra.CrossCutting.Bus\MyClinic.Infra.CrossCutting.Bus.csproj", "{1BA74D67-985B-48C2-8748-415AD2949F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClinic.Infra.CrossCutting.IoC", "MyClinic.Infra.CrossCutting.IoC\MyClinic.Infra.CrossCutting.IoC.csproj", "{15A89836-FDCA-411E-86F5-12692465B9F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClinic.Infra.CrossCutting.IoC", "MyClinic.Infra.CrossCutting.IoC\MyClinic.Infra.CrossCutting.IoC.csproj", "{15A89836-FDCA-411E-86F5-12692465B9F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClinic.Infra.CrossCutting.Identity", "MyClinic.Infra.CrossCutting.Identity\MyClinic.Infra.CrossCutting.Identity.csproj", "{79E59500-ECFB-4B71-851E-7AC4BD44D472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClinic.Infra.CrossCutting.Identity", "MyClinic.Infra.CrossCutting.Identity\MyClinic.Infra.CrossCutting.Identity.csproj", "{79E59500-ECFB-4B71-851E-7AC4BD44D472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Tests", "6. Tests", "{A88F79F4-0553-4BB3-B565-52912B9E8891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClinic.NUnit.Tests", "MyClinic.NUnit.Tests\MyClinic.NUnit.Tests.csproj", "{5A2E405C-7764-4B19-8CC1-3FDAA50478E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{79E59500-ECFB-4B71-851E-7AC4BD44D472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E59500-ECFB-4B71-851E-7AC4BD44D472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E59500-ECFB-4B71-851E-7AC4BD44D472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2E405C-7764-4B19-8CC1-3FDAA50478E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2E405C-7764-4B19-8CC1-3FDAA50478E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2E405C-7764-4B19-8CC1-3FDAA50478E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2E405C-7764-4B19-8CC1-3FDAA50478E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{1BA74D67-985B-48C2-8748-415AD2949F76} = {040258DD-07A5-4A61-B21C-857BB5F45373}
 		{15A89836-FDCA-411E-86F5-12692465B9F4} = {040258DD-07A5-4A61-B21C-857BB5F45373}
 		{79E59500-ECFB-4B71-851E-7AC4BD44D472} = {040258DD-07A5-4A61-B21C-857BB5F45373}
+		{5A2E405C-7764-4B19-8CC1-3FDAA50478E1} = {A88F79F4-0553-4BB3-B565-52912B9E8891}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95D95C80-0623-4CD6-97AD-A2144CF1A117}
