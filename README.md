@@ -6,12 +6,5 @@ Projeto BackEnd para o MyClinic (Sistema para Clínicas Odontológicas)
 
 O sistema é baseado no DDD (Domain Drive Design) que refere-se a uma metodologia de Design Orientada ao Domínio.  
 Alguns outros conceitos e padrões foram utilizados para garantir um código que utiliza os princípios do SOLID e Clean Code.
-  
-Os projetos criados no Visual Studio podem ser visualizados na imagem abaixo.  
-
-![image](https://user-images.githubusercontent.com/30643035/65826514-79329880-e254-11e9-9aca-0830aaee883e.png)  
-  
-  
-O Fluxo de Comunicação entre as camadas devera seguir conforme imagem abaixo
-
-![image](https://user-images.githubusercontent.com/30643035/65826706-b77d8700-e257-11e9-9c3c-d40737e08c6f.png)
+   
+ 
