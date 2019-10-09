@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/30643035/65826656-1db5da00-e257-11e9-84d2-0de444f78886.png)
-
 # MyClinic-BackEnd
 
 Projeto BackEnd para o MyClinic (Sistema para Clínicas Odontológicas)
